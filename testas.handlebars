@@ -1,0 +1,20 @@
+<table>
+    {{#each zmones}}
+    <tr>
+        <td>
+            {{this.vardas}}
+        </td>
+        <td>
+            {{this.pavarde}}
+        </td>
+    </tr>
+    {{/each}}
+</table>
+
+{{#each zmones}}
+<div>
+    {{this.Vardas}}
+    <span> Vardas: {{this.vardas}} Pavarde: {{this.pavarde}}</span>
+    {{this.Pavarde}}
+</div>
+{{/each}}
